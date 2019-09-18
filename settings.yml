@@ -1,0 +1,9 @@
+collect_list:
+  # 收集列表，用于将分散在各处的文件收集到一个指定文件夹中，方便统一管理
+  source: 
+    - F:\UserFolder\Download
+    - F:\UserFolder\Picture\临时
+  destination: F:\Inbox
+  except_file:
+    # 这个列表用于列出不希望收集过来的文件
+    - desktop.ini
